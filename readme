@@ -1,0 +1,7 @@
+This project is focused on the idea of learning / using as much of the ATS programs as possible in efforts of job search. 
+
+The Application Tracking System that most companies use can be reverse engineered by knowing what the software does, and thus creating each feature to reproduce those behaviors. 
+
+This verison of the simple ATS, simply extracts and counts the number of keywords within a body of text. 
+
+A word is determined by there being spaces on both sides, and a count is added to each word.
