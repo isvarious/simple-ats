@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="ats.css">
+<script src="ats.js"></script>
+<title>Simple ATS</title>
+</head>
+	<body>		
+		<div id="container">
+
+			<table>
+				<tr>
+					<td>
+						Job Description
+					</td>
+					<td>Keywords</td>
+				</tr>
+				<tr>
+					<td>
+						<textarea id="jobDescription"></textarea>
+					</td>
+					<td>
+						<nav>
+							<ul id="keywordList"></ul>
+						</nav>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button id="getKeywords" onclick="addKeyword(jobDescription.value, keywordOccurrences.value )">Get Keywords</button>
+					</td>
+					<td style="align-items: center;">
+						Keyword Occurences
+						<select id="keywordOccurrences">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						  </select>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
